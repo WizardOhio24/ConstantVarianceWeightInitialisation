@@ -5,14 +5,10 @@
 This repo houses the code for the paper Constant Variance Weight Initialisation.
 
 ## Abstract
-
------
 Weight initialisation is a necessary first step in all neural networks: This work reviews the currently popular methods of weight initialisation without using input data and proposes Constant Variance Weight Initialisation. Applied to small neural networks, Constant Variance initialisation is shown to result in an increase in training speed compared to Xavier initialisation, a result which fails to generalise to larger neural networks. However, equivalent performance can be achieved on larger neural networks either by scaling the range of the S-shaped activation function or by reducing the standard deviation of the input and the standard deviation of the forward propagation. Constant Variance initialisation is then compared to He initialisation, where it shows no significant difference in training speed when applied to small neural networks, but results in an improved training speed when applied to larger neural networks.
 
 
 ## Prerequisties
-
----
  - Python
  - PyTorch
    - Torch
@@ -26,8 +22,6 @@ Weight initialisation is a necessary first step in all neural networks: This wor
 
 
 ## Running
-
-----------------
 The code has two main parts, generating the activation function coefficients, 
 and testing the activation function coefficients on the chosen problems.
 
