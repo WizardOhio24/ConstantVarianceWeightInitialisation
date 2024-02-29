@@ -1,7 +1,5 @@
 # <c> Constant Variance Weight Initialisation </c>
 
----
-
 This repo houses the code for the paper Constant Variance Weight Initialisation.
 
 ## Abstract
@@ -9,7 +7,9 @@ Weight initialisation is a necessary first step in all neural networks: This wor
 
 
 ## Prerequisties
- - Python
+
+A python environment with jupyter notebook is required.
+Below are the libraries used in this project (See `requirements.txt` for exact requirements):
  - PyTorch
    - Torch
    - Torchvision
@@ -17,8 +17,6 @@ Weight initialisation is a necessary first step in all neural networks: This wor
  - matplotlib
  - scikit-learn (sklearn)
  - pillow
- - json
-
 
 
 ## Running
