@@ -50,5 +50,9 @@ Generating the plots/figures based on these experiments are mostly included in t
  - `XavierComparason5.ipynb` | Figure 3
    - Plots the forward propagated variance on each layer
 
+Where the plotting is included in the same notebook, there is a cell to load in the raw data before generating the plot.  This can be found after the cells for generating the raw results.  Run this cell to load in the raw results and then run the subsequent cells to generate plots based on the loaded data.
+
 The generated plots/figures have also been included in the `PaperImages` folder.
+
+By default, the notebooks will run each experiment 5 times.  This can be changed by changing the value in the `range` where the results are generated and saved.
 
